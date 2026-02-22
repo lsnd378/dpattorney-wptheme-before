@@ -1,0 +1,60 @@
+/**
+ * Admin Styles for D Pongkor & Partners
+ *
+ * @package D_Pongkor_Partners
+ * @since 1.0.0
+ */
+
+/* Meta Box Styles */
+.dpattorney-meta-box {
+    padding: 1rem 0;
+}
+
+.dpattorney-meta-box p {
+    margin-bottom: 1.5rem;
+}
+
+.dpattorney-meta-box label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #23282d;
+}
+
+.dpattorney-meta-box input[type="text"],
+.dpattorney-meta-box input[type="email"],
+.dpattorney-meta-box input[type="url"],
+.dpattorney-meta-box textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.dpattorney-meta-box textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.dpattorney-meta-box .description {
+    font-size: 0.875rem;
+    color: #666;
+    margin-top: 0.25rem;
+}
+
+/* Post Type Icons */
+#menu-posts-team_member .wp-menu-image:before {
+    content: '\f307';
+}
+
+#menu-posts-practice_area .wp-menu-image:before {
+    content: '\f313';
+}
+
+#menu-posts-insight .wp-menu-image:before {
+    content: '\f123';
+}
+
+#menu-posts-job_opening .wp-menu-image:before {
+    content: '\f338';
+}
